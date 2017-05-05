@@ -91,7 +91,11 @@ section.success {
   section {
     padding: 75px 0; }
   section.first {
-    padding-top: 75px; } }
+    padding-top: 75px; }
+  .chess-img {
+      margin-left: 0px;
+    }
+  }
 
 .scroll-top {
   position: fixed;
