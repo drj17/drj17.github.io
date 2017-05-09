@@ -284,6 +284,7 @@ header.masthead {
       margin: 30px 0; }
 
 .portfolio-modal .close-modal {
+  z-index: 150;
   position: absolute;
   width: 75px;
   height: 75px;
