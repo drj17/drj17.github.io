@@ -19,6 +19,11 @@ p.small {
   border-radius: 50%;
 }
 
+#portfolio {
+  background-color: #18BC9C;
+  color: white;
+}
+
 a,
 a:hover,
 a:focus,
@@ -36,6 +41,9 @@ h6 {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700; }
+h3 {
+  margin-top: 20px;
+}
 
 hr.star-light,
 hr.star-primary {
@@ -78,14 +86,14 @@ hr.star-primary:after {
   margin: 0 auto; }
 
 section {
-  padding: 100px 0; }
+  padding: 75px 0; }
   section h2 {
-    margin: 0;
+    margin: 20px 0;
     font-size: 3em; }
 
 section.success {
-  background: #18BC9C;
-  color: white; }
+  background: #FFFFFF;
+  color: #000; }
 
 @media (max-width: 767px) {
   section {
@@ -215,7 +223,7 @@ header.masthead {
     max-width: 400px;
     margin: 0 auto; }
     #portfolio .portfolio-item .portfolio-link .caption {
-      background: rgba(24, 188, 156, 0.9);
+      background: rgba(255, 255, 255, 0.9);
       position: absolute;
       width: 100%;
       height: 100%;
@@ -233,7 +241,7 @@ header.masthead {
         text-align: center;
         top: 50%;
         margin-top: -12px;
-        color: white;
+        color: #18BC9C;
         display: flex;
         justify-content: space-between;
         align-self: center;
@@ -475,16 +483,34 @@ footer {
 .skills-list {
   list-style: none;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   padding: 0;
 }
 
 .skills-list li {
-  margin: 20px 40px;
+  /*margin: 20px 40px;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
 }
+
+.skills-list span {
+  width: 100px;
+}
+
 
 .site-links a{
   color: white;
+}
+
+.dev {
+  font-size: 4rem;
+  margin-bottom: 6px;
+}
+
+.about-row {
+  justify-content: center;
 }
 
 .btn:focus,
