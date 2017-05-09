@@ -272,7 +272,7 @@ header.masthead {
   margin: 0;
   padding: 0; }
   .portfolio-modal .modal-dialog .modal-content {
-    padding: 100px 0;
+    padding: 50px 0;
     border-radius: 0;
     border: 0; }
     .portfolio-modal .modal-dialog .modal-content h2 {
@@ -511,6 +511,10 @@ footer {
 
 .about-row {
   justify-content: center;
+}
+
+.portfolio-links a{
+  color: white;
 }
 
 .btn:focus,
